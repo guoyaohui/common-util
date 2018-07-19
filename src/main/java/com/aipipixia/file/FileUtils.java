@@ -11,13 +11,11 @@ import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.Set;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author 郭垚辉
  * @date 2018/7/19
  */
-@Slf4j
 public class FileUtils {
 
   /**
