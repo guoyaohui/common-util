@@ -63,8 +63,7 @@ public class FileUtils {
         return list;
       }
     } catch (IOException e) {
-      e.printStackTrace();
-      log.error("when your recursive the file occur some error is {}", path, e);
+      throw new RuntimeException("when your recursive the path 【" + path + "】 occur some error is ", e);
     }
     return null;
   }
